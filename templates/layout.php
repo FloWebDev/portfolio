@@ -13,21 +13,12 @@
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="/assets/css/styles.css" rel="stylesheet" />
+        <link href="/assets/css/styles.css?v=<?php echo date('z') ?>" rel="stylesheet" />
         <!-- Pixel Art CSS-->
-        <link href="/assets/css/pixel_art.css" rel="stylesheet" />
+        <link href="/assets/css/pixel_art.css?v=<?php echo date('z') ?>" rel="stylesheet" />
 
         <meta name="description" content="Développeur Web PHP Symfony - JavaScript - Grenoble - Isère - Saint-Ismier">
         <meta name="keywords" content="développeur web, developpeur web, back-end, front-end, full-stack, fullstack, html, css, php, js, javascript, dev web, grenoble, rhône-alpes, rhone-alpes, rhône alpes, rhone alpes">
-        <meta name="google-site-verification" content="opK_KlnHZPlMHQaTwCzf5LA2Nc_p4Z7fchTtGCoro-Y" />
-            <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134175201-1"></script>
-            <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-134175201-1');
-            </script>
     </head>
     <body id="page-top">
 
@@ -58,7 +49,8 @@
 
 
         <footer class="text-center mb-2">
-            Développé avec ❤️ et ☕ par FloWebDev - 2018-<?php echo date('Y'); ?>
+            Développé avec ❤️ et ☕ par FloWebDev - 2018-<?php echo date('Y'); ?><br>
+            <?php echo number_format(LoggerService::getNumberOfVisitors(), 0, ',', ' '); ?> visiteurs
         </footer>
 
         <!-- Bootstrap core JS-->
@@ -67,10 +59,10 @@
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
-        <script src="/assets/js/scripts.js"></script>
-        <script src="/assets/js/pixel_art.js"></script>
+        <script src="/assets/js/scripts.js?v=<?php echo date('z') ?>"></script>
+        <script src="/assets/js/pixel_art.js?v=<?php echo date('z') ?>"></script>
         <?php if(!empty($contactJs)): ?>
-            <script src="/assets/js/contact.js"></script>
+            <script src="/assets/js/contact.js?v=<?php echo date('z') ?>"></script>
         <?php endif; ?>
     </body>
 </html>

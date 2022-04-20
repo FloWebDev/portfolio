@@ -4,6 +4,7 @@ session_start();
 require __DIR__ . '/../config.php';
 require __DIR__ . '/../lib/AltoRouter.php';
 require __DIR__ . '/../src/Service/CaptchaService.php';
+require __DIR__ . '/../src/Service/LoggerService.php';
 require __DIR__ . '/../src/Service/MailService.php';
 require __DIR__ . '/../src/Controller/CoreController.php';
 require __DIR__ . '/../src/Controller/DefaultController.php';
@@ -12,6 +13,7 @@ $router = new AltoRouter();
 
 // map homepage
 $router->map('GET', '/', function () {
+    LoggerService::incrementNumberOfVisitors();
     $controller = new DefaultController();
     $controller->homePage();
 });

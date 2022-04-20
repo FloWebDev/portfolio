@@ -10144,6 +10144,7 @@ b {
 /* Message flash confirmation envoi email */
 #contact_flash_message {
   height: 70px;
+  z-index: 1;
 }
 
 /* Map Google Maps */
