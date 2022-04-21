@@ -7,16 +7,14 @@
         <meta name="author" content="" />
         <title>Développeur Web PHP Symfony JavaScript</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="/assets/css/styles.css?v=<?php echo date('z') ?>" rel="stylesheet" />
+        <link href="/assets/css/styles.min.css?v=<?php echo date('z') ?>" rel="stylesheet" />
         <!-- Pixel Art CSS-->
         <link href="/assets/css/pixel_art.css?v=<?php echo date('z') ?>" rel="stylesheet" />
-
+        <!-- meta -->
         <meta name="description" content="Développeur Web PHP Symfony - JavaScript - Grenoble - Isère - Saint-Ismier">
         <meta name="keywords" content="développeur web, developpeur web, back-end, front-end, full-stack, fullstack, html, css, php, js, javascript, dev web, grenoble, rhône-alpes, rhone-alpes, rhône alpes, rhone alpes">
     </head>
@@ -31,7 +29,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Florian Mathevon</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/img/florian-mathevon.png" alt="florian-mathevon" /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/img/florian-mathevon.webp" alt="florian-mathevon" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -53,16 +51,18 @@
             <?php echo number_format(LoggerService::getNumberOfVisitors(), 0, ',', ' '); ?> visiteurs
         </footer>
 
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous" defer></script>
         <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" defer></script>
         <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" defer></script>
         <!-- Core theme JS-->
-        <script src="/assets/js/scripts.js?v=<?php echo date('z') ?>"></script>
-        <script src="/assets/js/pixel_art.js?v=<?php echo date('z') ?>"></script>
+        <script src="/assets/js/scripts.js?v=<?php echo date('z') ?>" defer></script>
+        <script src="/assets/js/pixel_art.js?v=<?php echo date('z') ?>" defer></script>
         <?php if(!empty($contactJs)): ?>
-            <script src="/assets/js/contact.js?v=<?php echo date('z') ?>"></script>
+            <script src="/assets/js/contact.js?v=<?php echo date('z') ?>" defer></script>
         <?php endif; ?>
     </body>
 </html>
