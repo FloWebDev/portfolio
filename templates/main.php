@@ -10,7 +10,7 @@
                     </h1>
                     <div class="subheading mb-5">
                         Développeur Web PHP Symfony / JavaScript ·
-                        <a href="{{ path('home_page#contact"><i class="fas fa-at"></i> Contact</a>
+                        <a href="/#contact"><i class="fas fa-at"></i> Contact</a>
                     </div>
                     <p class="lead mb-5">Après six années passées dans le secteur banque/assurance, je me suis réorienté vers le métier de Développeur Web en 2018. j'ai suivi la formation <a class="social-icon" href="https://oclock.io/" rel="nofollow" target="_blank">O'clock</a>, organisme labellisé Grande Ecole Du Numérique.</p>
                     <div class="social-icons">
