@@ -27,7 +27,7 @@
         <textarea id="form_body" name="form[body]" required="required" rows="7" placeholder="Bonjour..." class="form-control"></textarea>
     </div>
 
-    <p><img src="data:image/jpeg;base64,<?php echo $captcha; ?>" alt=""></p>
+    <p><img src="data:image/jpeg;base64,<?php echo $captcha; ?>" alt="" width="100" height="30"></p>
 
     <div class="form-group"><label for="form_captcha" class="required">Insérez le nombre affiché dans l'image (*)</label><input type="number" id="form_captcha" name="form[captcha]" required="required" placeholder="????" class="form-control"></div>
 

@@ -151,7 +151,7 @@
                                 </ul>
                             </div>
                             <p>945<sup>pts sur 1000</sup> <a href="https://directory.opquast.com/fr/certificat/LE5092/" rel="nofollow" target="_blank">
-                                <img src="/assets/media/issuer_LE5092.svg" alt="Certificat Opquast Florian Mathevon" class="img-fluid mr-3" style="width: 5%;"></a>
+                                <img src="/assets/media/issuer_LE5092.svg" alt="Certificat Opquast Florian Mathevon" width="50" height="50" class="img-fluid mr-3" style="width: 5%;"></a>
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Mars 2019</span></div>
