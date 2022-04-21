@@ -11,8 +11,11 @@ RewriteRule . index.php [L]
 
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
-    <FilesMatch "\.(ico|jpeg|png|gif|webp)$">
+    <FilesMatch "\.(ico|jpeg|png|gif|webp|avif|svg)$">
         Header set Cache-Control "max-age=2592000, public"
+    </FilesMatch>
+    <FilesMatch "\.(js|css)$">
+        Header set Cache-Control "max-age=86400, public"
     </FilesMatch>
 </IfModule>
 # public : Indique que la réponse peut être mise en cache par n'importe quel cache.

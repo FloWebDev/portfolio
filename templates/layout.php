@@ -8,8 +8,8 @@
         <title>Développeur Web PHP Symfony JavaScript</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700&display=swap" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&display=swap" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="/assets/css/styles.min.css?v=<?php echo date('z') ?>" rel="stylesheet" />
         <!-- Pixel Art CSS-->
@@ -51,6 +51,7 @@
             <?php echo number_format(LoggerService::getNumberOfVisitors(), 0, ',', ' '); ?> visiteurs
         </footer>
 
+        <script src="/assets/js/lazysizes.min.js" async></script>
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous" defer></script>
         <!-- Bootstrap core JS-->
