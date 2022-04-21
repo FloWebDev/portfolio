@@ -268,50 +268,50 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <a href="https://ma-biblio.com/" target="_blank">
-                                    <img src="/assets/media/portfolio/ma-biblio.webp" class="lazyload d-block w-100"
-                                        alt="screenshot Ma-Biblio.com">
+                                    <amp-img src="/assets/media/portfolio/ma-biblio.webp" class="lazyload"
+                                        alt="screenshot Ma-Biblio.com" width="1055" height="580" layout="responsive"></amp-img>
                                 </a>
                             </div>
                             <div class="carousel-item">
                                 <a href="https://keeppetcool.com/" target="_blank">
-                                    <img src="/assets/media/portfolio/keeppetcool.webp" class="lazyload d-block w-100"
-                                        alt="screenshot KeepPetCool">
+                                    <amp-img src="/assets/media/portfolio/keeppetcool.webp" class="lazyload"
+                                        alt="screenshot KeepPetCool" width="1055" height="580" layout="responsive"></amp-img>
                                 </a>
                             </div>
                             <div class="carousel-item">
                                 <a href="https://dev.flomath.com/" target="_blank">
-                                    <img src="/assets/media/portfolio/bookmark.webp" class="lazyload d-block w-100"
-                                        alt="screenshot Bookmark">
+                                    <amp-img src="/assets/media/portfolio/bookmark.webp" class="lazyload"
+                                        alt="screenshot Bookmark" width="1055" height="580" layout="responsive"></amp-img>
                                 </a>
                             </div>
                             <div class="carousel-item">
                                 <a href="https://api-light.com/" target="_blank">
-                                    <img src="/assets/media/portfolio/api-light.webp" class="lazyload d-block w-100"
-                                        alt="screenshot Peau de Pêche Création">
+                                    <amp-img src="/assets/media/portfolio/api-light.webp" class="lazyload"
+                                        alt="screenshot Peau de Pêche Création" width="1055" height="580" layout="responsive"></amp-img>
                                 </a>
                             </div>
                             <div class="carousel-item">
                                 <a href="https://peaudepechecreation.fr/" target="_blank">
-                                    <img src="/assets/media/portfolio/peau-de-peche-creation.webp" class="lazyload d-block w-100"
-                                        alt="screenshot Peau de Pêche Création">
+                                    <amp-img src="/assets/media/portfolio/peau-de-peche-creation.webp" class="lazyload"
+                                        alt="screenshot Peau de Pêche Création" width="1055" height="580" layout="responsive"></amp-img>
                                 </a>
                             </div>
                             <div class="carousel-item">
                                 <a href="http://ajax.florianmathevon.com/" target="_blank">
-                                    <img src="/assets/media/portfolio/swapi-ajax.webp" class="lazyload d-block w-100"
-                                        alt="screenshot SWAPI AJAX">
+                                    <amp-img src="/assets/media/portfolio/swapi-ajax.webp" class="lazyload"
+                                        alt="screenshot SWAPI AJAX" width="1055" height="580" layout="responsive"></amp-img>
                                 </a>
                             </div>
                             <div class="carousel-item">
                                 <a href="http://faq.florianmathevon.com/" target="_blank">
-                                    <img src="/assets/media/portfolio/faqoclock.webp" class="lazyload d-block w-100"
-                                        alt="screenshot FAQ O'clock">
+                                    <amp-img src="/assets/media/portfolio/faqoclock.webp" class="lazyload"
+                                        alt="screenshot FAQ O'clock" width="1055" height="580" layout="responsive"></amp-img>
                                 </a>
                             </div>
                             <div class="carousel-item">
                                 <a href="http://oldversion.florianmathevon.com/" target="_blank">
-                                    <img src="/assets/media/portfolio/pagePerso.webp" class="lazyload d-block w-100"
-                                        alt="screenshot site Page Perso">
+                                    <amp-img src="/assets/media/portfolio/pagePerso.webp" class="lazyload"
+                                        alt="screenshot site Page Perso" width="1055" height="580" layout="responsive"></amp-img>
                                 </a>
                             </div>
                         </div>

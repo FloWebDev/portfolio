@@ -51,6 +51,8 @@
             <?php echo number_format(LoggerService::getNumberOfVisitors(), 0, ',', ' '); ?> visiteurs
         </footer>
 
+        <!-- AMP-->
+        <script async src="https://cdn.ampproject.org/v0.js" async></script>
         <script src="/assets/js/lazysizes.min.js" async></script>
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous" defer></script>
