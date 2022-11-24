@@ -44,7 +44,7 @@
                                     <li>Migration de l'application PIM* suite à un changement d'ERP.</li>
                                     <li>Migration technique de l'application PIM* (PHP 5.3 => PHP 7.4 / MySQL 5 => MySQL 8). Utilisation de PHP Sniffer.</li>
                                     <li>Création de micro-applications en Symfony (Symfony 6 / PHP 8) en vue d'une migration future du PIM*.</li>
-                                    <li>Mise en place d'une nouvelle stack technique pour le développement : WSL, Docker, Docker-Compose.</li>
+                                    <li>Mise en place d'une nouvelle stack technique pour le développement : WSL 2, Docker, Docker-Compose.</li>
                                     <li>Participation à la gestion du Datalake utilisé par la BI. Utilisation de l'ETL Talend.</li>
                                 </ul>
                                 <small>* PIM - Product Information Management</small>
