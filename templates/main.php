@@ -12,7 +12,7 @@
                         Développeur Web PHP Symfony / JavaScript ·
                         <a href="/#contact"><i class="fas fa-at"></i> Contact</a>
                     </div>
-                    <p class="lead mb-5">Après six années passées dans le secteur banque/assurance, je me suis réorienté vers le métier de Développeur Web en 2018. j'ai suivi la formation <a class="social-icon" href="https://oclock.io/" rel="nofollow" target="_blank">O'clock</a>, organisme labellisé Grande Ecole Du Numérique.</p>
+                    <p class="lead mb-5">Après six années passées dans le secteur banque/assurance, je me suis réorienté vers le métier de Développeur Web en 2018. j'ai suivi la formation <a class="social-icon" href="https://oclock.io/" rel="nofollow" target="_blank">O'clock</a>, organisme labellisé Grande École Du Numérique.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/florianmathevon/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/FloWebDev" target="_blank"><i class="fab fa-github"></i></a>
@@ -27,19 +27,29 @@
                     <h2 class="mb-5">Expériences</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <h3 class="mb-0">Développeur PHP / Symfony</h3>
+                            <div class="subheading mb-3">Opensquare</div>
+                            <p>Développement web PHP 8 / Symfony.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Novembre 2022 - Aujourd'hui</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
                             <h3 class="mb-0">Développeur PHP - Ingénieur Étude et Développement 1</h3>
                             <div class="subheading mb-3">Smile - Open Source Solutions</div>
-                            <p>Missions diverses en tant que développeur PHP.</p>
+                            <p>Missions diverses en tant que développeur PHP auprès d'un grand acteur du e-commerce :</p>
                             <p>
-                                Stack technique (principalement) :
                                 <ul>
-                                    <li>PHP 5 / 7 / 8.</li>
-                                    <li>Docker / Docker Compose.</li>
-                                    <li>Git / Gitlab.</li>
+                                    <li>Tierce Maintenance Applicative sur application PIM* (Yii Framework / PHP 5.3 / MySQL 5).</li>
+                                    <li>Migration de l'application PIM* suite à un changement d'ERP.</li>
+                                    <li>Migration technique de l'application PIM* (PHP 5.3 => PHP 7.4 / MySQL 5 => MySQL 8). Utilisation de PHP Sniffer.</li>
+                                    <li>Création de micro-applications en Symfony (Symfony 6 / PHP 8) en vue d'une migration future du PIM*.</li>
+                                    <li>Mise en place d'une nouvelle stack technique pour le développement : WSL, Docker, Docker-Compose.</li>
                                 </ul>
+                                <small>* PIM - Product Information Management</small>
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Septembre 2021 - Aujourd'hui</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Septembre 2021 - Novembre 2022</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -174,7 +184,7 @@
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Ecole Supérieure de Commerce Chambéry</h3>
+                            <h3 class="mb-0">École Supérieure de Commerce Chambéry</h3>
                             <div class="subheading mb-3">Grade Master 2 Business School</div>
                             <p>Major de promotion</p>
                         </div>
@@ -264,6 +274,8 @@
                             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -276,6 +288,12 @@
                                 <a href="https://keeppetcool.com/" target="_blank">
                                     <img src="/assets/media/portfolio/keeppetcool.webp" loading="lazy" class="lazyload d-block w-100"
                                         alt="screenshot KeepPetCool">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://hangman.flomath.com/" target="_blank">
+                                    <img src="/assets/media/portfolio/hangman.webp" loading="lazy" class="lazyload d-block w-100"
+                                        alt="screenshot Hangman">
                                 </a>
                             </div>
                             <div class="carousel-item">
